@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snikpic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body class="main__body">
+    <!-- Header -->
+    <header>
+    <!-- Navbar -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#"> <img src="./img/logo.svg" alt="logo">
+                        <span>Snikpic</span> </a>
+                </div>
+                <nav>
+                    <ul class="menu">
+                        <li class="menu__item"><a href="#" class="menu__item-link" data-scroll
+                                data-lng="head1">Product</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link" data-scroll data-lng="head2">Use
+                                Case</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link" data-scroll
+                                data-lng="head3">Learn</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link" data-scroll
+                                data-lng="head4">Comparison</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link" data-scroll
+                                data-lng="head5">Pricing</a></li>
+                        <li class="menu__item"><a href="#" class="menu__item-link" data-scroll data-lng="head6">Contact
+                                Sales</a></li>
+                    </ul>
+                </nav>
+                <div class="navbar__btns">
+                    <a href="" class="rounded__btn navbar__btn" data-lng="head7">Sign up</a>
+                    <!-- Select -->
+                    <div id="select" class="select">
+                        <input type="hidden" class="hidden__input">
+                    </div>
+                </div>
+                <button class="burger">
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- Main Page -->
+    <main>
+        <!-- Hero -->
+        <section class="section__hero">
+    <div class="container">
+        <div class="hero">
+            <div class="hero__item hero__item-first">
+                <h1 class="hero__title" data-lng="hero1">your agency.
+                    <span>in a box.</span>
+                </h1>
+                <p class="hero__text" data-lng="hero2">All of your work in one place. And much more</p>
+                <form class="hero__form">
+                    <input type="email" class="hero__input" placeholder="Enter your email address">
+                    <div class="form__btns">
+                        <button class="btn form__btn" type="submit" data-lng="hero5">Sign up</button>
+                        <p class="form__btns-text" data-lng="hero3">AND BE PART OF
+                            THE CLOSED BETA</p>
+                    </div>
+                </form>
+                <div class="hero__rating">
+                    <img class="hero__rating-img" src="./img/hero/stars.svg" alt="five atars">
+                    <p class="hero__rating-tetx" data-lng="hero4">Based on 100+ marketers reviews on</p>
+                </div>
+                <div class="hero__logos">
+                    <img src="./img/hero/hero-1.png" alt="crowd">
+                    <img src="./img/hero/hero-2.svg" alt="trurstpilot">
+                    <img src="./img/hero/hero-3.svg" alt="capterra">
+                </div>
+            </div>
+            <div class="hero__item hero__item-second">
+                <img class="hero__item-img" src="./img/hero/hero-img.svg" alt="img">
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Tabs -->
+        <section class="section__tabs">
+    <div class="container">
+        <!-- Tabs -->
+        <div class="tabs">
+            <div class="tabs__header">
+                <div class="tabs__header-item active" data-lng="tabs1">create</div>
+                <div class="tabs__header-item" data-lng="tabs2">manage</div>
+                <div class="tabs__header-item" data-lng="tabs3">automate</div>
+                <div class="tabs__header-item" data-lng="tabs4">chat</div>
+                <div class="tabs__header-item" data-lng="tabs5">delegate</div>
+            </div>
+            <div class="tabs__content">
+                <div class="tabs__content-item">
+                    <div class="tabs__text-box">
+                        <h2 class="tabs__title title">all your creative tasks <span>simplified with AI.</span> </h2>
+                        <p class="tab__text">Get content ideas, generate captions that respects brand’s tone of voice,
+                            design and plan your publications all in one place</p>
+                        <h5 class="tabs__list-title">REPLACES</h5>
+                        <ul class="tabs__list">
+                            <li class="tabs__list-item">Feedly</li>
+                            <li class="tabs__list-item">Canva</li>
+                            <li class="tabs__list-item">Copy.ai</li>
+                            <li class="tabs__list-item">Hootsuite</li>
+                        </ul>
+                        <a href="#!" class="btn tab__btn">Sign up</a>
+                    </div>
+                    <div class="tabs__img">
+                        <img class="tabs__img-item" src="./img/tabs/tab-1.svg" alt="create">
+                    </div>
+                </div>
+                <div class="tabs__content-item">
+                    <div class="tabs__text-box">
+                        <h2 class="tabs__title title">find the right teammates to <span>get things done.</span></h2>
+                        <p class="tab__text">Access the largest network of marketing professional to delegate your tasks
+                            and automatically orchestrate payment across teams and clients</p>
+                        <h5 class="tabs__list-title">REPLACES</h5>
+                        <ul class="tabs__list">
+                            <li class="tabs__list-item">Upwork</li>
+                            <li class="tabs__list-item">Malt</li>
+                            <li class="tabs__list-item">Fiverr</li>
+                        </ul>
+                        <a href="#!" class="btn tab__btn">Sign up</a>
+                    </div>
+                    <div class="tabs__img">
+                        <img class="tabs__img-item" src="./img/tabs/tab-2.svg" alt="manage">
+                    </div>
+                </div>
+                <div class="tabs__content-item">
+                    <div class="tabs__text-box">
+                        <h2 class="tabs__title title">one single chat <span>to rule them all.</span></h2>
+                        <p class="tab__text">Work smarter as a team with real-time chat. All your client-facing
+                            conversations are automatically bridged to Whatsapp</p>
+                        <h5 class="tabs__list-title">REPLACES</h5>
+                        <ul class="tabs__list">
+                            <li class="tabs__list-item">Slack</li>
+                            <li class="tabs__list-item">MS Teams</li>
+                            <li class="tabs__list-item">Whatsapp</li>
+                        </ul>
+                        <a href="#!" class="btn tab__btn">Sign up</a>
+                    </div>
+                    <div class="tabs__img">
+                        <img class="tabs__img-item" src="./img/tabs/tab-3.svg" alt="automate">
+                    </div>
+                </div>
+                <div class="tabs__content-item">
+                    <div class="tabs__text-box">
+                        <h2 class="tabs__title title">your entire workflow <span>on autopilot.</span></h2>
+                        <p class="tab__text">Eliminate the busywork and focus on what matters with hundreds of
+                            Automations. Automatically assign tasks, post comments, update statuses, and sync with other
+                            tools.</p>
+                        <h5 class="tabs__list-title">REPLACES</h5>
+                        <ul class="tabs__list">
+                            <li class="tabs__list-item">UiPath</li>
+                            <li class="tabs__list-item">Zapier</li>
+                            <li class="tabs__list-item">Airtable</li>
+                        </ul>
+                        <a href="#!" class="btn tab__btn">Sign up</a>
+                    </div>
+                    <div class="tabs__img">
+                        <img class="tabs__img-item" src="./img/tabs/tab-4.svg" alt="chat">
+                    </div>
+                </div>
+                <div class="tabs__content-item">
+                    <div class="tabs__text-box">
+                        <h2 class="tabs__title title">transparency over all the <span>work ahead of you.</span></h2>
+                        <p class="tab__text">Plan, track, and manage all your work with project management that flexes
+                            to your team's needs.</p>
+                        <h5 class="tabs__list-title">REPLACES</h5>
+                        <ul class="tabs__list">
+                            <li class="tabs__list-item">Asana</li>
+                            <li class="tabs__list-item">Monday</li>
+                        </ul>
+                        <a href="#!" class="btn tab__btn">Sign up</a>
+                    </div>
+                    <div class="tabs__img">
+                        <img class="tabs__img-item" src="./img/tabs/tab-5.svg" alt="delegate">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Selling -->
+        <section class="section__selling">
+    <div class="container">
+        <div class="selling">
+            <div class="selling__item">
+                <h2 class="selling__title title">stop <span>selling yourself.</span></h2>
+                <p class="selling__text">There is more in life than prospection. Just focus on your craft and let us
+                    take care of the rest</p>
+            </div>
+            <div class="selling__item ">
+                <ul class="selling__item-list">
+                    <li class="selling__item-icon"><img src="./img/selling/selling-1.svg" alt="cursor"></li>
+                    <li class="selling__item-title">dedicated landing page</li>
+                    <li class="selling__text">When onboarding on snikpic, you will have your own dedicated and shareable
+                        landing page optimized for conversion.</li>
+                </ul>
+                <ul class="selling__item-list">
+                    <li class="selling__item-icon"><img src="./img/selling/selling-2.svg" alt="phone"></li>
+                    <li class="selling__item-title">purchasable prospect</li>
+                    <li class="selling__text">Use snikpic’s experience running ads and only buy from us prospect who
+                        have shown direct interest in your profile. We take care of the rest</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Pricing -->
+        <section class="section__pricing">
+    <div class="container">
+        <div class="pricing">
+            <div class="pricing__item pricing__left">
+                <h2 class="title pricing__title">one simple <span>pricing.</span>
+                </h2>
+                <ul class="pricing__list">
+                    <li class="pricing__list-item" data-price="49">Unlimited features</li>
+                    <li class="pricing__list-item" data-price="60">Unlimited members</li>
+                    <li class="pricing__list-item" data-price="18">Unlimited workflows</li>
+                    <li class="pricing__list-item" data-price="29">Unlimited calendars</li>
+                    <li class="pricing__list-item" data-price="109">Unlimited meeting</li>
+                </ul>
+                <button class="btn pricing__btn">Sign Up</button>
+            </div>
+            <div class="pricing__item pricing__rigth">
+                <div class="pricing__rigth-bgimg">
+                    <img src="./img/pricing/pricing.svg" alt="img">
+                </div>
+                <div class="pricing__rigth-text">
+                    <h3 class="pricing__rigth-title">0€</h3>
+                    <p class="pricing__rigth-subtitle">/ client / month</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Reviews -->
+        <section class="section__reviews">
+    <div class="container">
+        <div class="reviews">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__avatar">
+                                <img class="slide__avatar-img" src="./img/reviews/avatar.png" alt="avatar">
+                                <a class="play__btn" href="#!"><img src="./img/reviews/play.svg" alt="play"></a>
+                            </div>
+                            <div class="slide__info">
+                                <div class="slide__name">1 Christophe Bourand, ChrisWebMarketing</div>
+                                <div class="slide__text">Juggling with all my clients and making sure everything was
+                                    done correctly took me a lot of energy. Not did Snikpic enabled me to tremendously
+                                    release that extra useless work, but I quickly found myself able to take on much
+                                    more clients than I originally could </div>
+                                <div class="slide__icon"><img src="./img/reviews/icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__avatar">
+                                <img class="slide__avatar-img" src="./img/reviews/avatar.png" alt="avatar">
+                                <a class="play__btn" href="#!"><img src="./img/reviews/play.svg" alt="play"></a>
+                            </div>
+                            <div class="slide__info">
+                                <div class="slide__name">2 Christophe Bourand, ChrisWebMarketing</div>
+                                <div class="slide__text">Juggling with all my clients and making sure everything was
+                                    done correctly took me a lot of energy. Not did Snikpic enabled me to tremendously
+                                    release that extra useless work, but I quickly found myself able to take on much
+                                    more clients than I originally could </div>
+                                <div class="slide__icon"><img src="./img/reviews/icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide">
+                            <div class="slide__avatar">
+                                <img class="slide__avatar-img" src="./img/reviews/avatar.png" alt="avatar">
+                                <a class="play__btn" href="#!"><img src="./img/reviews/play.svg" alt="play"></a>
+                            </div>
+                            <div class="slide__info">
+                                <div class="slide__name">3 Christophe Bourand, ChrisWebMarketing</div>
+                                <div class="slide__text">Juggling with all my clients and making sure everything was
+                                    done correctly took me a lot of energy. Not did Snikpic enabled me to tremendously
+                                    release that extra useless work, but I quickly found myself able to take on much
+                                    more clients than I originally could </div>
+                                <div class="slide__icon"><img src="./img/reviews/icon.svg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-left slider__arrow"><svg width="50" height="51" viewBox="0 0 50 51"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25.002" r="24" transform="rotate(-180 25 25.002)" stroke="#1D2736"
+                            stroke-width="2" />
+                        <line x1="32" y1="25.002" x2="18" y2="25.002" stroke="#1D2736" stroke-width="2"
+                            stroke-linecap="round" />
+                        <line x1="20.5858" y1="29.002" x2="17" y2="25.4162" stroke="#1D2736" stroke-width="2"
+                            stroke-linecap="round" />
+                        <line x1="21" y1="21.4162" x2="17.4142" y2="25.002" stroke="#1D2736" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+                <div class="swiper-button-rigth slider__arrow"><svg width="50" height="51" viewBox="0 0 50 51"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="25" cy="25.002" r="24" stroke="#1D2736" stroke-width="2" />
+                        <line x1="18" y1="25.002" x2="32" y2="25.002" stroke="#1D2736" stroke-width="2"
+                            stroke-linecap="round" />
+                        <line x1="29.4142" y1="21.002" x2="33" y2="24.5877" stroke="#1D2736" stroke-width="2"
+                            stroke-linecap="round" />
+                        <line x1="29" y1="28.5877" x2="32.5858" y2="25.002" stroke="#1D2736" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg></div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <!-- Footer -->
+    <footer>
+    <div class="container">
+        <div class="footer__contacts-box">
+            <h2 class="footer__title title">apply to our <span>closed beta.</span></h2>
+            <form class="contacts__form">
+                <label class="contacts__label">
+                    <p class="contacts__input-name">Name</p>
+                    <input class="form__input" type="text" placeholder="Let’s not be strangers">
+                </label>
+                <label class="contacts__label">
+                    <p class="contacts__input-name">Phone Number</p>
+                    <input class="form__input" type="tel" placeholder="470000000">
+                </label>
+                <label class="contacts__label">
+                    <p class="contacts__input-name">Website</p>
+                    <input class="form__input" type="url" placeholder="Put the URL right there">
+                </label>
+                <label class="contacts__label">
+                    <p class="contacts__input-name">Email Address</p>
+                    <input class="form__input" type="email" placeholder="That’s right, we need your email">
+                </label>
+                <button class="btn contacts__btn" type="submit">Send</button>
+            </form>
+        </div>
+        <div class="footer">
+            <div class="footer__icons">
+                <div class="logo">
+                    <a href="#"> <img src="./img/logo.svg" alt="logo">
+                        <span>Snikpic</span> </a>
+                </div>
+                <div class="footer__socials">
+                    <a href="#!"><img src="./img/social/facebook.svg" alt="facebook"></a>
+                    <a href="#!"></a><img src="./img/social/instagram.svg" alt="instagram"></a>
+                    <a href="#!"></a><img src="./img/social/linkedin.svg" alt="linkedin"></a>
+                </div>
+            </div>
+            <div class="footer__lists">
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__item-link" href="#!">About us</a></li>
+                    <li class="footer__item"><a class="footer__item-link" href="#!">Blog</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__item-link" href="#!">Legal</a></li>
+                    <li class="footer__item"><a class="footer__item-link" href="#!">Privacy Policy</a></li>
+                    <li class="footer__item"><a class="footer__item-link" href="#!">Terms and conditions</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item"><a class="footer__item-link" href="#!">Help</a></li>
+                    <li class="footer__item"><a class="footer__item-link" href="#!">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer__bottom-text">S SRL - VAT BE0729.842.450 - contact@s.io - Avenue Armand Huysmans 157,1050
+            Bruxelies</p>
+    </div>
+</footer>
+</body>
+
+<script src="./js/scripts.min.js"></script>
+
+</html>
